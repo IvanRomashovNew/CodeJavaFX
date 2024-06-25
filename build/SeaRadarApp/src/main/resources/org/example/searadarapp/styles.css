@@ -1,0 +1,38 @@
+.ComboBox {
+  -fx-background-color: #F64C72;
+  -fx-text-fill: #FFFFFF;
+}
+.ComboBox .list-cell {
+  -fx-text-fill: white;
+}
+.ComboBox .list-view .list-cell {
+  -fx-background-color: #F64C72;
+  -fx-text-fill: #FFFFFF;
+}
+
+.ComboBox:focused .list-view .list-cell:selected {
+  -fx-background-color: #C43C5B;
+}
+.Label{
+ -fx-font-weight: bold;
+ -fx-font-size: 20px;
+ -fx-text-fill: #FFFFFF;
+}
+.Button{
+ -fx-background-color: #F64C72;
+ -fx-text-fill: #FFFFFF;
+ -fx-font-weight: bold;
+}
+.TextField{
+-fx-background-color: #F64C72;
+-fx-text-fill: #FFFFFF;
+}
+.main{
+-fx-background-color: #242582;
+-fx-text-fill: #FFFFFF;
+-fx-font-size: 15px;
+}
+
+
+
+

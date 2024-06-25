@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="414.0" prefWidth="394.0" spacing="20.0" styleClass="main" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.searadarapp.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+  <Label styleClass="Label" stylesheets="@styles.css" text="Выберите протокол:" />
+  <ComboBox fx:id="typeOfProtocolCB" prefWidth="250" styleClass="ComboBox" />
+  <Label styleClass="Label" text="Выберите тип сообщения:" />
+  <ComboBox fx:id="typeOfMessagesCB" prefWidth="250" styleClass="ComboBox" />
+  <TextField fx:id="seaMessageTF" maxWidth="250" styleClass="TextField" />
+  <Button onAction="#onAddDbButtonClick" prefWidth="250" styleClass="Button" text="Добавить в базу данных" />
+  <VBox fx:id="vBox" />
+</VBox>
