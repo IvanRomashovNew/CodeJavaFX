@@ -11,7 +11,7 @@ public class DbConnect {
             if (connection != null) {
                 System.out.println("Подключён к БД");
                 DatabaseMetaData dbm = connection.getMetaData();
-                ResultSet tables = dbm.getTables(null, null, "Sea_Messages", null);
+                ResultSet tables = dbm.getTables(null, null, "sea_messages", null);
                 if (tables.next()) {
                     System.out.println("Таблицы в базе данных существуют");
                 }
